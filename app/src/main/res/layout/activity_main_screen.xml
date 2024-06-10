@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen">
+
+    <TextView
+        android:id="@+id/txtAverageTemp"
+        android:layout_width="332dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="48dp"
+        android:text="Average Weekly Temperature: N/ A"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnErase"
+        android:layout_width="134dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="244dp"
+        android:text="Erase"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAverageTemp" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="123dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="76dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAverageTemp" />
+
+    <Button
+        android:id="@+id/btnGoodbye"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="76dp"
+        android:text="Goodbye"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnErase" />
+
+    <Button
+        android:id="@+id/btnCalcAverage"
+        android:layout_width="110dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="84dp"
+        android:text="Calculate Average"
+        app:layout_constraintEnd_toStartOf="@+id/btnGoodbye"
+        app:layout_constraintTop_toBottomOf="@+id/btnErase" />
+
+    <EditText
+        android:id="@+id/edtMonday"
+        android:layout_width="252dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="112dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Monday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAverageTemp" />
+
+    <EditText
+        android:id="@+id/edtTuesday"
+        android:layout_width="250dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="132dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Tuesday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtMonday" />
+
+    <EditText
+        android:id="@+id/edtWedneday"
+        android:layout_width="259dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="120dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Wednesday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTuesday" />
+
+    <EditText
+        android:id="@+id/edtThursday"
+        android:layout_width="232dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="160dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Thursday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtWedneday" />
+
+    <EditText
+        android:id="@+id/edtFriday"
+        android:layout_width="237dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="160dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Friday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtThursday" />
+
+    <EditText
+        android:id="@+id/edtSaturday"
+        android:layout_width="242dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="152dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Saturday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtFriday" />
+
+    <EditText
+        android:id="@+id/edtSunday"
+        android:layout_width="255dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="148dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Sunday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtSaturday" />
+</androidx.constraintlayout.widget.ConstraintLayout>

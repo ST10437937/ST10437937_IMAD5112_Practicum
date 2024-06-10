@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txtThursdayMax"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailedViewScreen">
+
+    <TextView
+        android:id="@+id/txtMondayMin"
+        android:layout_width="77dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="31dp"
+        android:text="Min Temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnMainScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="152dp"
+        android:text="Main Screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSundayMin" />
+
+    <TextView
+        android:id="@+id/txtMondayWeatherValue"
+        android:layout_width="102dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="40dp"
+        android:text="Monday Weather Value"
+        app:layout_constraintEnd_toStartOf="@+id/txtMondayMax"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtMondayMax"
+        android:layout_width="89dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="56dp"
+        android:text="Monday Max Temp"
+        app:layout_constraintEnd_toStartOf="@+id/txtMondayMin"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTuesdayWeatherValue"
+        android:layout_width="114dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="29dp"
+        android:text="Tuesday weather Value"
+        app:layout_constraintEnd_toStartOf="@+id/txtTuesdayMinValue"
+        app:layout_constraintTop_toBottomOf="@+id/txtMondayWeatherValue" />
+
+    <TextView
+        android:id="@+id/txtWednesdayWeatherValue"
+        android:layout_width="105dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="23dp"
+        android:text="Wednesday Weather Value"
+        app:layout_constraintEnd_toStartOf="@+id/txtWednesdayMin"
+        app:layout_constraintTop_toBottomOf="@+id/txtTuesdayWeatherValue" />
+
+    <TextView
+        android:id="@+id/txtThursdayWeatherValue"
+        android:layout_width="113dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="24dp"
+        android:text="Thursday weather Value"
+        app:layout_constraintEnd_toStartOf="@+id/txtThursdayMin"
+        app:layout_constraintTop_toBottomOf="@+id/txtWednesdayWeatherValue" />
+
+    <TextView
+        android:id="@+id/txtFridayWeatherValue"
+        android:layout_width="120dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:text="Friday Weather Value"
+        app:layout_constraintEnd_toStartOf="@+id/txtFridayMin"
+        app:layout_constraintTop_toBottomOf="@+id/txtThursdayWeatherValue" />
+
+    <TextView
+        android:id="@+id/txtSaturdayWeatherValue"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="36dp"
+        android:text="Saturday Weather Value"
+        app:layout_constraintEnd_toStartOf="@+id/txtSaturdayMin"
+        app:layout_constraintTop_toBottomOf="@+id/txtFridayWeatherValue" />
+
+    <TextView
+        android:id="@+id/txtSundayWeatherValue"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="40dp"
+        android:text="Sunday Weather Value"
+        app:layout_constraintEnd_toStartOf="@+id/txtSundayMin"
+        app:layout_constraintTop_toBottomOf="@+id/txtSaturdayWeatherValue" />
+
+    <TextView
+        android:id="@+id/txtTuesdayMinValue"
+        android:layout_width="84dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="45dp"
+        android:text="Tuesday Min Temp"
+        app:layout_constraintEnd_toStartOf="@+id/txtTuesdayMax"
+        app:layout_constraintTop_toBottomOf="@+id/txtMondayMax" />
+
+    <TextView
+        android:id="@+id/txtTuesdayMax"
+        android:layout_width="88dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="35dp"
+        android:text="Tuesday Max Temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMondayMin" />
+
+    <TextView
+        android:id="@+id/txtSundayMin"
+        android:layout_width="76dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="42dp"
+        android:text="Sunday Min Temp"
+        app:layout_constraintEnd_toStartOf="@+id/txtSundayMax"
+        app:layout_constraintTop_toBottomOf="@+id/txtSaturdayMin" />
+
+    <TextView
+        android:id="@+id/txtSundayMax"
+        android:layout_width="89dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="41dp"
+        android:text="Sunday Max Temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSaturdayMax" />
+
+    <TextView
+        android:id="@+id/txtWednesdayMin"
+        android:layout_width="106dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="44dp"
+        android:text="Wednesday Min Temp"
+        app:layout_constraintEnd_toStartOf="@+id/txtWednesdayMax"
+        app:layout_constraintTop_toBottomOf="@+id/txtTuesdayMinValue" />
+
+    <TextView
+        android:id="@+id/txtWednesdayMax"
+        android:layout_width="76dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="41dp"
+        android:text="Wednesday Max Temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTuesdayMax" />
+
+    <TextView
+        android:id="@+id/txtThursdayMin"
+        android:layout_width="96dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="19dp"
+        android:text="@string/thursday_min_temp"
+        app:layout_constraintEnd_toStartOf="@+id/txtThursdayMax"
+        app:layout_constraintTop_toBottomOf="@+id/txtWednesdayMin" />
+
+    <TextView
+        android:id="@+id/txtFridayMin"
+        android:layout_width="86dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="59dp"
+        android:text="Friday Min Temp"
+        app:layout_constraintEnd_toStartOf="@+id/txtFridayMax"
+        app:layout_constraintTop_toBottomOf="@+id/txtThursdayMin" />
+
+    <TextView
+        android:id="@+id/txtSaturdayMin"
+        android:layout_width="80dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="40dp"
+        android:text="Saturday Min Temp"
+        app:layout_constraintEnd_toStartOf="@+id/txtSaturdayMax"
+        app:layout_constraintTop_toBottomOf="@+id/txtFridayMin" />
+
+    <TextView
+        android:id="@+id/txtThursdayMax"
+        android:layout_width="132dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:text="Thursday Max Temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtWednesdayMax" />
+
+    <TextView
+        android:id="@+id/txtFridayMax"
+        android:layout_width="79dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="43dp"
+        android:layout_marginEnd="50dp"
+        android:text="Friday Max Temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtThursdayMax" />
+
+    <TextView
+        android:id="@+id/txtSaturdayMax"
+        android:layout_width="82dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="49dp"
+        android:layout_marginEnd="49dp"
+        android:text="Saturday Max Temp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFridayMax" />
+</androidx.constraintlayout.widget.ConstraintLayout>

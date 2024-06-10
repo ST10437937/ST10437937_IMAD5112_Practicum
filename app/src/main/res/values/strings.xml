@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyWeatherExam</string>
+    <string name="thursday_min_temp">Thursday Min Temp</string>
+</resources>
