@@ -5,6 +5,8 @@ the purpose of this app is to provide the average temperature for the week. the 
 the splash screen gives the option to nevigate to the next page or exit the app
 
 ![weather 1st page](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/06af8f91-0d9a-4d6d-969b-bee36fe2a118)
+![weather 1st page code](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/c08d7ea9-a045-46e1-855a-2197c5e76cdd)
+
 
 package com.example.myweatherexam
 
@@ -38,6 +40,10 @@ class MainActivity : AppCompatActivity() {
 
 the main screen is about calculating the average temperature for the week, nevigate to detailed screen or exit
 ![weather splash](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/950bd3af-cb97-46e7-b866-7d5b5530bb0a)
+![fixed](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/18cc3b92-a5bd-4ebb-861c-3de4cc179e1d)
+![splash code 4](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/b00241d8-f84e-4887-97e2-3ea32eb7f4f5)
+![splash code3](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/82f05491-6ca7-418a-8b93-af9479ea7256)
+
 
 package com.example.myweatherexam
 
@@ -183,6 +189,10 @@ private fun setMessage(s: String, function: () -> Unit) {
     }
 
 detailed screen is each days temerpatures 
+![details1](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/fe31305a-8fd5-487c-b316-330f2004c6fd)
+![details2](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/8e8a49dd-a50a-4d1b-9bf4-97bbd1c12350)
+![details3](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/ecbe6fd1-2706-481e-b313-3944f91f524f)
+
 
 package com.example.myweatherexam
 
