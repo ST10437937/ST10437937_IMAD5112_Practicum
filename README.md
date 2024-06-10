@@ -3,6 +3,9 @@ ST10437937
 
 the purpose of this app is to provide the average temperature for the week. the minimum and maximum tempertaures are recodred. 
 the splash screen gives the option to nevigate to the next page or exit the app
+
+![weather 1st page](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/06af8f91-0d9a-4d6d-969b-bee36fe2a118)
+
 package com.example.myweatherexam
 
 import android.content.Intent
@@ -34,6 +37,8 @@ class MainActivity : AppCompatActivity() {
 }
 
 the main screen is about calculating the average temperature for the week, nevigate to detailed screen or exit
+![weather splash](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/950bd3af-cb97-46e7-b866-7d5b5530bb0a)
+
 package com.example.myweatherexam
 
 import android.annotation.SuppressLint
@@ -315,6 +320,7 @@ class DetailedViewScreen : AppCompatActivity() {
     private fun setMessage(s: String, function: () -> Unit) {
 
     }
+![weather 1st page](https://github.com/ST10437937/ST10437937_IMAD5112_Practicum/assets/161305280/06af8f91-0d9a-4d6d-969b-bee36fe2a118)
 
 reference list 
 IIE modual amnual 2024
