@@ -315,3 +315,8 @@ class DetailedViewScreen : AppCompatActivity() {
     private fun setMessage(s: String, function: () -> Unit) {
 
     }
+
+reference list 
+IIE modual amnual 2024
+stackoverflow accessed on 10june 2024 available at  https://stackoverflow.com/questions/2115758/how-do-i-display-an-alert-dialog-on-aandroid/2115770#2115770
+geekd for geeks accessed on 10 june 2024 avaiable at https://geeksforgeeks.com
